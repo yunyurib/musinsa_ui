@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상품 목록</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="product-main">
+        <div class="product-main-header inner">
+          <div class="main-header__info">
+              <strong class="header__info__title"
+              >상품<span class="header__info__title__numder">407,118 개</span>
+             </strong
+            >
+            <span class="header__time">15분 전 갱신</span>
+          </div>
+          <div class="main-header__view">
+              <div class="view view_full act" onclick="viewTypeNormal()">
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3 3H19V14.75V15.75V19H3V15.75V14.75V3ZM4 15.75V18H18V15.75H4ZM18 14.75H4V4H18V14.75Z" fill="black"/>
+                  <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="16" height="16">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3 3H19V14.75V15.75V19H3V15.75V14.75V3ZM4 15.75V18H18V15.75H4ZM18 14.75H4V4H18V14.75Z" fill="white"/>
+                  </mask>
+                  <g mask="url(#mask0)">
+                  </g>
+                  </svg>
+              </div>
+              <div class="view view_grid"  onclick="viewTypeGrid()">
+                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3H3V10H10V3ZM4 9V4H9V9H4Z" fill="black"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M19 3H12V10H19V3ZM13 9V4H18V9H13Z" fill="black"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 12H19V19H12V12ZM13 13V18H18V13H13Z" fill="black"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M10 12H3V19H10V12ZM4 18V13H9V18H4Z" fill="black"/>
+                          </svg>
+                          
+              </div>
+              <div class="view view_list"  onclick="viewTypeList()">
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3 3H10V10H3V3ZM4 4V9H9V4H4ZM3 12H10V19H3V12ZM4 18H9V13H4V18ZM12 5H19V4H12V5ZM19 18H12V17H19V18ZM12 14H19V13H12V14ZM19 9H12V8H19V9Z" fill="black"/>
+                  <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="16" height="16">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3 3H10V10H3V3ZM4 4V9H9V4H4ZM3 12H10V19H3V12ZM4 18H9V13H4V18ZM12 5H19V4H12V5ZM19 18H12V17H19V18ZM12 14H19V13H12V14ZM19 9H12V8H19V9Z" fill="white"/>
+                  </mask>
+                  <g mask="url(#mask0)">
+                  </g>
+                  </svg>
+              </div>
+          </div>
+        </div>
+        <ul class="product-main-productList">
+          <li class="product-main-productItem">
+            <a class="productItem__link" href="#none" title="상품바로가기">
+              <div class="productItem__imgBox">
+                <p class="productItem__imgBox__label">
+                  <span class="label__new">NEW</span><span class="label__musinsa">무신사 단독</span>
+                </p>
+                <img
+                  src="http://image.msscdn.net/images/goods_img/20180921/865862/865862_2_320.jpg"
+                  alt="캐시미어 블렌드 대디 숄더 싱글 롱 코트"
+                />
+              </div>
+              <div class="productItem__info inner">
+                <p class="info__brand">무신사 스탠다드</p>
+                <p class="info__info">
+                  [유아인 착장상품] 무신사랑 이벤트 진행중 - 캐시미어 블렌드 대디
+                  숄더 싱글 롱 코트 [블랙]
+                </p>
+                <div class="info__price">
+                    <p class="info__price__price">229,500 원
+                        <del>255,000 원</del>
+                    </p>
+                    <p class="info__price__sale">10%</p>
+                  </div>
+              </div>
+            </a>
+          </li>
+          <li class="product-main-productItem">
+              <a class="productItem__link" href="#none" title="상품바로가기">
+                <div class="productItem__imgBox">
+                  <img
+                    src="http://image.musinsa.com/images/goods_img/20180703/810034/810034_2_320.jpg"
+                    alt="척 70 클래식"
+                  />
+                </div>
+                <div class="productItem__info inner">
+                  <p class="info__brand">컨버스</p>
+                  <p class="info__info">척 70 클래식
+                  </p>
+                  <p class="info__price">
+                      <p class="info__price__price">89,000 원
+                      </p>
+                    </p>
+                </div>
+              </a>
+            </li>
+        </ul>
+      </main>
+  </body>
+</html>
