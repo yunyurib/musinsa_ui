@@ -18,4 +18,12 @@ function msg() {
   } else {
     viewTypeBasicsNormal();
   }
+  //  브라우저 크기 변동시 반응형 뷰 타입
+  screenMedia.addEventListener("change", (e) => {
+    if (e.matches) {
+      viewTypeBasicsNormal();
+    } else {
+      viewTypeBasicsGrid();
+    }
+  });
 }
