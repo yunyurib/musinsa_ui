@@ -11,8 +11,8 @@ const productItemLabel = document.querySelector(".productItem__imgBox__label");
 const screenMedia = window.matchMedia("screen and (max-width: 600px)");
 const windowWidth = window.outerWidth;
 
-//  로드시 반응형 뷰 타입
-function msg() {
+window.onload = function () {
+  // 로드시 크기에 따른 뷰타입
   if (windowWidth >= 600) {
     viewTypeBasicsGrid();
   } else {
@@ -26,7 +26,7 @@ function msg() {
       viewTypeBasicsGrid();
     }
   });
-}
+};
 
 // 뷰 타입 아이콘 클릭시 이벤트
 function viewTypeNormal() {
