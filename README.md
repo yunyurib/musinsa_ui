@@ -1,7 +1,6 @@
-# Musinsa UI Test &#128187;
+# Musinsa UI  &#128187;
 
-> 무신사 프론트개발팀 UI 과제입니다.
-> 과제 제출용으로 만들어진 것임을 밝힙니다.
+> 무신사 UI를 마크업으로 구현하였습니다.
 
 ## Skil 📃
 
@@ -17,14 +16,14 @@
   - Font : Noto Sans KR ( 400, bold )
   - SCSS GUI : Koala ( 컴파일 )
   - 컴파일의 Map파일과 히스토리는 삭제하지 않고 남겨두었습니다.
-- **상품 목록** : [**View**](https://xururuca9797.github.io/musinsa_ui_test/goodslist/goodslist.html)
+- **상품 목록** : [**View**](https://xururuca9797.github.io/musinsa_ui/goodslist/goodslist.html)
   - 화면 넓이 : 360px ~ 1024px
   - matchMedia를 사용하여, 로드시 반응형 뷰 타입과 브라우저 크기 변동시 반응형 뷰 타입 변경을 하였습니다.
   - 모바일에서는 Geid2(viewTypeNormal)를 기본 레이아웃으로 하였습니다.
   - 데스크탑에서는 Grid1(viewTypeGrid)를 기본 레이아웃으로 하엿습니다.
   - 우측 상단 뷰 타입 아이콘 클릭 시 목록 뷰 타입이 변경됩니다. 아이콘은 현재 목록의 뷰 타입을 나타냅니다.
   - 총 3개의 뷰 타입디자인 내용을 한개의 HTML 페이지로 구성하였습니다.
-- **쇼케이스** : [**View**](https://xururuca9797.github.io/musinsa_ui_test/showcase/showcase.html)
+- **쇼케이스** : [**View**](https://xururuca9797.github.io/musinsa_ui/showcase/showcase.html)
   - 스크롤 플러그인 사용하였습니다.
   - content의 세로 길이에 따라 스크롤이 이동하도록 하였습니다. ( 100vh )
   - 제이쿼리를 이용하여 작업을 하였습니다.
